@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Luxurious+Roman&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Source+Code+Pro:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(189, 183, 183);
+    font-family: 'Merriweather', serif;
+ transition: 0.30s ease-in;
+ position: absolute;
+ height: 90vh;
+  
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+  padding: 33px 0px;
+list-style:none;
+font-size: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+  }
+  .sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+  }
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 20px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+
+    /* background-color: rgb(194, 60, 82); */
+    height: 58vh;
+     width: 80vw; 
+  margin: 80px auto; 
+  display:flex;
+ justify-content: space-around; 
+  
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+    
+}
+.hello{
+font-size: 80px;
+
+}
+.name{
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+   
+}
+.about{
+    font-size: 40px;
+   
+}
+.more{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.devpic img{
+    width: 381px;
+    height:58vh;
+}
+.btn
+{
+    margin: 10px 3px;
+    padding: 5px 14px;
+    border-radius: 22px;
+    font-weight: bold;
+    background-color: rgb(125, 176, 241);
+    cursor: pointer;
+}
+/* here is css for contact */
+.contactform{
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 34px;
+    padding: 40px;
+    margin: 10px 80px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+ font-size: 30px;
+   
+}
+.contactform form div{
+    padding: 12px 0px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: blue;
+}
+.contactform form div input{
+    border-radius: 5px;
+}
+div .clientname{
+    display: flex;
+    flex-direction: row;
+}
+#fname{
+margin: 2px;
+}
+.blogcontainer{
+    margin: 20px 55px;
+}
+.blogitem{
+    margin: 15px 15px;
+}
+.blogitem h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 0px 10px;
+}
+.blogitem p{
+    font-family: 'Kanit', sans-serif;
+}
+.hamburger{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+.ham{
+    width: 30px;
+    height: 30px;
+}
+.cross{
+    margin-left: 150px;
+}
+@media screen and (max-width: 1185px) {
+    
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+        
+    } */
+    /* .main{
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+  }
+  .forms{
+      margin-top: 30px;
+  }
+  /* intro page */
+  .aboutme{
+      margin: 0px 10px;
+      padding: 5px 5px;
+     
+  }
+  .aboutme h2{
+      font-size: 30px;
+  }
+  .aboutme p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
